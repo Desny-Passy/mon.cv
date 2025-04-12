@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans-uniquifier{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+body{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+header{
+    width: 95%;
+    background-color: #2b62e0;
+    padding: 20px;
+}
+
+.info_container{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Photo_profil{
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.identite{
+    width: 45%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.identite p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.emplacement{
+    width: 30%;
+}
+
+.contacts li{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.contacts a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.contacts img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.desc_profil{
+    width: 95%;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+.desc_profil h2{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #2165FE;
+    border-bottom: 1px solid black;
+}
+.titre_comp, .titre_formation, .titre_expe{
+    width: 95%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.titre_comp h2, .titre_formation h2, .titre_expe h2{
+    text-transform: uppercase;
+    color: #2165FE;
+    
+}
+.competence{
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.comp_social, .comp_informatique, .comp_logiciel{
+    width: 30%;
+    border-right: 1px solid black;
+    margin-right: 10px;
+}
+.comp_informatique{
+    border: none;
+}
+.comp_social h2, .comp_informatique h2, .comp_logiciel h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.comp_social li,  .comp_informatique li, .comp_logiciel li {
+    margin-left: 20px;
+    margin-top: 5px;
+    list-style-type:circle;
+}
+.college, .Lycée, .universite, .d_clic{
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.formation{
+    padding: 0px 0px 10px 20px;
+}
+.periode_col, .periode_dclic, .periode_lyc, .periode_unive, .periode_exp{
+    width: 25%;
+}
+.exp_pro{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0px 0px 10px 20px;
+    margin-left: 10px;
+}
+.desc_exp{
+    width: 65%;
+}
+
+.desc_exp h3{
+    margin-bottom: 10px;
+}
+
+.detail_exp{
+    margin-left: 35px;
+}
+
+.detail_exp li{
+    margin: 5px;
+}
+.loisir{
+    width: 90%;
+    margin: 20px;
+}
+
+.type_loisir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #2b62e0;
+    text-align: center;
+    align-content: center;
+    color: white;
+    margin-top: 100px;
+}
+
